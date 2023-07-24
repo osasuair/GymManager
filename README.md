@@ -6,5 +6,6 @@ Features Include Adding new Members, Updating Member Details, Deleting Members, 
 UI design is Modern and highly User-Friendly
 Application built using the MVC Design Pattern
 
-Author: Paul Airuehia
-Inspiration From: BTech Days on YT
+**Author: Paul Airuehia**
+
+**Inspiration From: BTech Days on YT**
