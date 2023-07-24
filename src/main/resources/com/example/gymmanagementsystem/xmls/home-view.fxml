@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" style="-fx-background-color: white;"
+            xmlns="http://javafx.com/javafx/20.0.1" fx:controller="com.example.gymmanagementsystem.Home">
+    <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0">
+        <top>
+            <AnchorPane prefHeight="89.0" prefWidth="1366.0" style="-fx-background-color: grey;"
+                        BorderPane.alignment="CENTER">
+                <GridPane prefHeight="88.0" prefWidth="1366.0" style="-fx-background-color: grey;">
+                    <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="674.2000122070312"
+                                           minWidth="10.0" prefWidth="347.20008544921876"/>
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1119.7999572753906"
+                                           minWidth="10.0" prefWidth="1019.9999145507813"/>
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                    </rowConstraints>
+                    <Label alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT"
+                           prefHeight="117.0" prefWidth="331.0" text="Gym Management System">
+                        <font>
+                            <Font name="System Bold" size="25.0"/>
+                        </font>
+                    </Label>
+                    <MenuBar nodeOrientation="RIGHT_TO_LEFT" prefHeight="90.0" prefWidth="1075.0"
+                             style="-fx-background-color: grey;" GridPane.columnIndex="1">
+                        <padding>
+                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                        </padding>
+                        <Menu mnemonicParsing="false" onShown="#exit" text="Exit ">
+                            <graphic>
+                                <ImageView fitHeight="72.0" fitWidth="76.0" pickOnBounds="true"
+                                           preserveRatio="true">
+                                    <Image url="@../images/exit.png"/>
+                                </ImageView>
+                            </graphic>
+                            <MenuItem mnemonicParsing="false" text="Unspecified Action"/>
+                        </Menu>
+                        <Menu fx:id="logoutMenu" mnemonicParsing="false" onShown="#logout" text="Logout ">
+                            <graphic>
+                                <ImageView fitHeight="72.0" fitWidth="76.0" pickOnBounds="true"
+                                           preserveRatio="true">
+                                    <Image url="@../images/logout.png"/>
+                                </ImageView>
+                            </graphic>
+                            <MenuItem mnemonicParsing="false" text="Unspecified Action"/>
+                        </Menu>
+                        <Menu fx:id="paymentMenu" mnemonicParsing="false" onShown="#paymentOption"
+                              text="Payment ">
+                            <graphic>
+                                <ImageView fitHeight="72.0" fitWidth="76.0" pickOnBounds="true"
+                                           preserveRatio="true">
+                                    <Image url="@../images/payment.png"/>
+                                </ImageView>
+                            </graphic>
+                            <MenuItem mnemonicParsing="false" text="Unspecified Action"/>
+                        </Menu>
+                        <Menu fx:id="listMembersMenu" mnemonicParsing="false" onShown="#listMembersOption"
+                              text="List of Members ">
+                            <graphic>
+                                <ImageView fitHeight="72.0" fitWidth="76.0" pickOnBounds="true"
+                                           preserveRatio="true">
+                                    <Image url="@../images/listOfMembers.png"/>
+                                </ImageView>
+                            </graphic>
+                            <MenuItem mnemonicParsing="false" text="Unspecified Action"/>
+                        </Menu>
+                        <Menu fx:id="updateDeleteMenu" mnemonicParsing="false" onShown="#updateDeleteOption"
+                              text="Update &amp; Delete Members ">
+                            <graphic>
+                                <ImageView fitHeight="72.0" fitWidth="76.0" pickOnBounds="true"
+                                           preserveRatio="true">
+                                    <Image url="@../images/updateDeleteMember.png"/>
+                                </ImageView>
+                            </graphic>
+                            <MenuItem mnemonicParsing="false" text="Unspecified Action"/>
+                        </Menu>
+                        <Menu fx:id="newMemberMenu" mnemonicParsing="false" onShown="#newMemberOption"
+                              text="New Member ">
+                            <graphic>
+                                <ImageView fitHeight="72.0" fitWidth="72.0" pickOnBounds="true"
+                                           preserveRatio="true">
+                                    <Image url="@../images/newMember.png"/>
+                                </ImageView>
+                            </graphic>
+                            <MenuItem mnemonicParsing="false" text="Unspecified Action"/>
+                        </Menu>
+                        <Menu disable="true" mnemonicParsing="false"/>
+                    </MenuBar>
+                </GridPane>
+            </AnchorPane>
+        </top>
+        <center>
+            <AnchorPane BorderPane.alignment="CENTER">
+                <Label fx:id="homeLabel" alignment="CENTER" layoutX="541.0" layoutY="304.0" text="Welcome!">
+                    <font>
+                        <Font name="Arial Bold" size="60.0"/>
+                    </font>
+                </Label>
+                <fx:include fx:id="newMemberPane" source="new-member-view.fxml" visible="false"/>
+                <fx:include fx:id="updateDeletePane" source="update-delete-view.fxml" visible="false"/>
+                <fx:include fx:id="listMembersPane" source="list-members-view.fxml" visible="false"/>
+                <fx:include fx:id="paymentPane" source="payment-view.fxml" visible="false"/>
+            </AnchorPane>
+        </center>
+    </BorderPane>
+</AnchorPane>
