@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="updateDeletePane" prefHeight="679" prefWidth="1366"
+            style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1"
+            fx:controller="com.example.mygymmanager.UpdateDeleteMember">
+    <Button layoutX="1326.0" mnemonicParsing="false" onAction="#close" onMouseClicked="#close" prefHeight="42.0"
+            prefWidth="48.0">
+        <graphic>
+            <ImageView fitHeight="34.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@../images/close.png"/>
+            </ImageView>
+        </graphic>
+    </Button>
+    <AnchorPane layoutX="238.0" layoutY="68.0" prefHeight="542.0" prefWidth="889.0">
+        <Label layoutX="111.0" prefHeight="82.0" text="Update &amp; Delete Member" textFill="#000000be">
+            <font>
+                <Font name="System Bold" size="48.0"/>
+            </font>
+            <graphic>
+                <ImageView fitHeight="82.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../images/updateDeleteMember.png"/>
+                </ImageView>
+            </graphic>
+        </Label>
+        <Label layoutX="1.0" layoutY="115.0" text="Member ID:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="idTextField" layoutX="84.0" layoutY="111.0" prefHeight="26.0" prefWidth="74.0"/>
+        <Button layoutX="235.0" layoutY="107.0" mnemonicParsing="false" onAction="#search" text="Search">
+            <graphic>
+                <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../images/search.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutY="152.0" prefHeight="17.0" prefWidth="63.0" text="Name:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="nameTextField" layoutY="175.0" prefHeight="26.0" prefWidth="316.0"/>
+        <Label layoutY="213.0" prefHeight="17.0" prefWidth="112.0" text="Mobile Number:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="mobileTextField" layoutY="236.0" prefHeight="26.0" prefWidth="316.0"/>
+        <Label layoutY="275.0" prefHeight="17.0" prefWidth="63.0" text="Email:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="emailTextField" layoutY="298.0" prefHeight="26.0" prefWidth="316.0"/>
+        <Label layoutX="1.0" layoutY="339.0" prefHeight="17.0" prefWidth="63.0" text="Gender:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <ComboBox fx:id="genderComboBox" layoutX="1.0" layoutY="362.0" prefHeight="26.0" prefWidth="316.0"
+                  visibleRowCount="3"/>
+        <Label layoutY="404.0" prefHeight="17.0" prefWidth="112.0" text="Parent 1 Name:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="parent1TextField" layoutY="427.0" prefHeight="26.0" prefWidth="316.0"/>
+        <Label layoutX="573.0" layoutY="150.0" prefHeight="17.0" prefWidth="112.0" text="Parent 2 Name:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="parent2TextField" layoutX="573.0" layoutY="173.0" prefHeight="26.0"
+                   prefWidth="316.0"/>
+        <Label layoutX="573.0" layoutY="213.0" prefHeight="17.0" prefWidth="112.0" text="Gym Time:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <ComboBox fx:id="gymTimeComboBox" layoutX="573.0" layoutY="236.0" prefHeight="26.0" prefWidth="316.0"/>
+        <Label layoutX="573.0" layoutY="277.0" prefHeight="17.0" prefWidth="112.0" text="SIN Number:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="sinTextField" layoutX="573.0" layoutY="298.0" prefHeight="26.0" prefWidth="316.0"/>
+        <Label layoutX="573.0" layoutY="339.0" prefHeight="17.0" prefWidth="112.0" text="Age:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="ageTextField" layoutX="573.0" layoutY="362.0" prefHeight="26.0" prefWidth="316.0"/>
+        <Label layoutX="573.0" layoutY="404.0" prefHeight="17.0" prefWidth="112.0" text="Monthly Fee:">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="monthlyFeeTextField" layoutX="573.0" layoutY="427.0" prefHeight="26.0"
+                   prefWidth="316.0"/>
+        <Button layoutX="1.0" layoutY="503.0" mnemonicParsing="false" onAction="#reset" prefHeight="38.0"
+                prefWidth="81.0" text="Reset">
+            <graphic>
+                <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../images/reset.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="updateButton" disable="true" layoutX="798.0" layoutY="503.0" mnemonicParsing="false"
+                onAction="#update" prefHeight="38.0" prefWidth="90.0" text="Update">
+            <graphic>
+                <ImageView fitHeight="30.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../images/save.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="deleteButton" disable="true" layoutX="685.0" layoutY="503.0" mnemonicParsing="false"
+                onAction="#delete" prefHeight="38.0" prefWidth="90.0" text="Delete">
+            <graphic>
+                <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../images/delete.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+    </AnchorPane>
+</AnchorPane>

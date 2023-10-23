@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mygymmanager.Login">
+   <ImageView fitHeight="768.0" fitWidth="1444.0" layoutX="-74.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-74.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="0.0">
+      <Image url="@../images/loginBackground.PNG" />
+   </ImageView>
+   <Button layoutX="1008.0" layoutY="189.0" mnemonicParsing="false" onAction="#exit" prefHeight="34.0" prefWidth="28.0">
+      <graphic>
+         <ImageView fitHeight="35.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../images/close.png" />
+         </ImageView>
+      </graphic>
+   </Button>
+   <Label alignment="CENTER" layoutX="804.0" layoutY="331.0" text="Log In" textFill="#000000b8">
+      <font>
+         <Font name="System Bold" size="30.0" />
+      </font>
+   </Label>
+   <Label fx:id="incorrectLabel" alignment="CENTER" layoutX="741.0" layoutY="460.0" prefHeight="26.0" prefWidth="214.0" text="Incorrect Username or Password" textFill="RED" visible="false">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </Label>
+   <TextField fx:id="usernameTextField" layoutX="683.0" layoutY="378.0" onMouseClicked="#usernameClicked" prefHeight="26.0" prefWidth="323.0" promptText="Enter Username" />
+   <PasswordField fx:id="passwordTextField" layoutX="683.0" layoutY="434.0" onAction="#onEnter" onMouseClicked="#passwordClicked" prefHeight="26.0" prefWidth="323.0" promptText="Enter Password" />
+   <Button fx:id="loginButton" layoutX="683.0" layoutY="487.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="92.0" text="Login">
+      <graphic>
+         <ImageView fitHeight="29.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../images/login.png" />
+         </ImageView>
+      </graphic>
+   </Button>
+   <CheckBox fx:id="showPasswordCheckBox" layoutX="875.0" layoutY="496.0" mnemonicParsing="false" onAction="#showPassword" prefHeight="7.0" prefWidth="131.0" text="Show Password">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </CheckBox>
+   <Label layoutX="649.0" layoutY="242.0" text="MyGymManager">
+      <font>
+         <Font name="System Bold" size="48.0" />
+      </font>
+   </Label>
+</AnchorPane>

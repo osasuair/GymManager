@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76de3a94-244c-4d1a-8585-cbe536398515" name="Changes" comment="Complete">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/ListMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/ListMembers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/NewMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/NewMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/UpdateDeleteMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/UpdateDeleteMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/models/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/models/MonthPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/models/MonthPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/project/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/project/ConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/exit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/exit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/icon_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/icon_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/listOfMembers.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/listOfMembers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/loginBackground.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/loginBackground.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/logout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/newMember.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/newMember.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/payment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/reset.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/reset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/updateDeleteMember.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/updateDeleteMember.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/username.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/username.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/home-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/list-members-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/list-members-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/login-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/new-member-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/new-member-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/payment-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/payment-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/update-delete-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/update-delete-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SlYHPrBKxtxMBWEWN1lXZe46WT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;248&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/osasu/IdeaProjects/GymManagementSystem/src/main/java/com/example/gymmanagementsystem&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/osasu/IdeaProjects/GymManagementSystem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.gymmanagementsystem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\osasu\IdeaProjects\GymManagementSystem\lib" />
+      <recent name="C:\Users\osasu\IdeaProjects\GymManagementSystem\src\main\resources\com\example\gymmanagementsystem\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\osasu\IdeaProjects\GymManagementSystem\lib" />
+      <recent name="C:\Users\osasu\IdeaProjects\GymManagementSystem\src\main\resources\com\example\gymmanagementsystem\XMLs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.gymmanagementsystem.models" />
+      <recent name="com.example.gymmanagementsystem.controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="Home" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mygymmanager.Home" />
+      <module name="MyGymManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gymmanagementsystem.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListMembers" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mygymmanager.ListMembers" />
+      <module name="MyGymManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gymmanagementsystem.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mygymmanager.Login" />
+      <module name="MyGymManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gymmanagementsystem.controllers.Login" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewMember" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mygymmanager.NewMember" />
+      <module name="MyGymManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gymmanagementsystem.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateDeleteMember" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mygymmanager.UpdateDeleteMember" />
+      <module name="MyGymManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mygymmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MyGymManager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MyGymManager" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UpdateDeleteMember" />
+      <item itemvalue="Application.Home" />
+      <item itemvalue="Application.ListMembers" />
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.NewMember" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.Home" />
+        <item itemvalue="Application.UpdateDeleteMember" />
+        <item itemvalue="Application.NewMember" />
+        <item itemvalue="Application.ListMembers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76de3a94-244c-4d1a-8585-cbe536398515" name="Changes" comment="" />
+      <created>1689722545636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689722545636</updated>
+      <workItem from="1689722547095" duration="143000" />
+      <workItem from="1689722711152" duration="247000" />
+      <workItem from="1689722985788" duration="11904000" />
+      <workItem from="1689771369345" duration="2971000" />
+      <workItem from="1689776299557" duration="1028000" />
+      <workItem from="1689778567679" duration="994000" />
+      <workItem from="1689779629757" duration="360000" />
+      <workItem from="1689782036020" duration="7012000" />
+      <workItem from="1689806232885" duration="12024000" />
+      <workItem from="1689943788248" duration="1988000" />
+      <workItem from="1689980593239" duration="2028000" />
+      <workItem from="1689982650903" duration="6885000" />
+      <workItem from="1690069252977" duration="24926000" />
+      <workItem from="1690512149317" duration="598000" />
+      <workItem from="1695514355005" duration="66000" />
+      <workItem from="1698028770764" duration="729000" />
+      <workItem from="1698054146860" duration="2526000" />
+    </task>
+    <task id="LOCAL-00001" summary="Complete">
+      <created>1690183967804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690183967804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/mygymmanager/NewMember.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/mygymmanager/ListMembers.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/mygymmanager/project/ConnectionProvider.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
