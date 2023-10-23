@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76de3a94-244c-4d1a-8585-cbe536398515" name="Changes" comment="Complete">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/ListMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/ListMembers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/NewMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/NewMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/UpdateDeleteMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/UpdateDeleteMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/models/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/models/MonthPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/models/MonthPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gymmanagementsystem/project/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mygymmanager/project/ConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/delete.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/exit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/exit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/icon_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/icon_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/listOfMembers.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/listOfMembers.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/loginBackground.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/loginBackground.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/logout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/newMember.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/newMember.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/password.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/payment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/reset.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/reset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/save.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/updateDeleteMember.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/updateDeleteMember.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/images/username.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/images/username.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/home-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/list-members-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/list-members-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/login-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/new-member-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/new-member-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/payment-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/payment-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gymmanagementsystem/xmls/update-delete-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mygymmanager/xmls/update-delete-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +201,7 @@
       <workItem from="1690512149317" duration="598000" />
       <workItem from="1695514355005" duration="66000" />
       <workItem from="1698028770764" duration="729000" />
-      <workItem from="1698054146860" duration="2526000" />
+      <workItem from="1698054146860" duration="2785000" />
     </task>
     <task id="LOCAL-00001" summary="Complete">
       <created>1690183967804</created>
